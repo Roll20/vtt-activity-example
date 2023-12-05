@@ -1,0 +1,2 @@
+[install.scopes]
+"@discord-external" = { url = "https://npm.pkg.github.com/:_authToken=$NPM_TOKEN" }
