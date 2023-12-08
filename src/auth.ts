@@ -17,7 +17,7 @@ const firebaseConfig = {
     appId: import.meta.env.VITE_APP_ID,
 }
 // Initialize Firebase
-initializeApp(firebaseConfig);
+const app = initializeApp(firebaseConfig);
 
 const signIn = async ({ token }: { token: string }) => {
 
@@ -27,5 +27,5 @@ const signIn = async ({ token }: { token: string }) => {
 	return signInWithCustomToken(auth, token);
 };
 
-export { signIn };
-export default signIn;
+export { app, signIn };
+export default app;

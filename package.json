@@ -1,7 +1,7 @@
 {
   "name": "vtt-app",
   "private": true,
-  "version": "0.0.0",
+  "version": "0.1.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -9,7 +9,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@discord-external/activity-iframe-sdk": "^2.3.1",
+    "@discord-external/activity-iframe-sdk": "^2.3.2",
     "firebase": "10.7.0",
     "vue": "^3.3.8"
   },
